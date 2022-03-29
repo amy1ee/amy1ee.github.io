@@ -1,0 +1,116 @@
+    /* 
+    Author: Amy Lee
+    Date: 03/21/2022
+    File Name: style.css
+*/
+
+/* Nav area */
+nav {
+    background-color: #B2D2E4;
+}
+
+/*
+.nav-form .btn {
+    border-color: #0d6efd;
+    color: #0d6efd;
+}
+
+.nav-form .btn:hover {
+    background-color: #0d6efd;
+    color: #fff;
+}
+*/
+
+/* Main contents area */
+main {
+    padding-top: 56px;
+}
+
+main .container {
+    padding: 3% 2%;
+}
+
+main h2 {
+    margin-bottom: 3%;
+}
+
+.even-background {
+    background-color: #eaf2fa;
+}
+
+/* Biography section */
+.pro-pic {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;        
+}
+
+#profile p {
+    text-align: center;
+    margin-bottom: 0;
+    padding: 4%;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.social-icon img, .program-icon img {
+    width: 32px;
+    height: 32px;    
+}
+
+.social-icon li, .program-icon li {
+    display: inline-block;
+    padding: 1em;    
+}
+
+.social-icon, .program-icon {
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+/* Experience section */
+.card {
+    padding: 3%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+}
+
+.experience-section h4, .experience-section p {
+    display: flex;
+}
+
+.experience-section span, .experience-section p span {
+    margin-left: auto;
+}
+
+.see-more p {
+    padding: 2% 0;
+}
+
+/* Project section */
+.carousel-inner .col-md-8 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.lead {
+    margin-top: 16px;
+}
+
+/* Contact section */
+#contact .btn {    
+    width: 100%;
+}
+
+/*Footer area */
+footer {
+    background-color: #B2D2E4;
+    text-align: center;     
+}
+
+footer span a {
+    color: #000;
+    text-decoration: none;
+}
+
