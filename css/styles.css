@@ -9,21 +9,9 @@ nav {
     background-color: #B2D2E4;
 }
 
-/*
-.nav-form .btn {
-    border-color: #0d6efd;
-    color: #0d6efd;
-}
-
-.nav-form .btn:hover {
-    background-color: #0d6efd;
-    color: #fff;
-}
-*/
-
 /* Main contents area */
 main {
-    padding-top: 56px;
+    padding-top: 100px;
 }
 
 main .container {
@@ -119,5 +107,15 @@ footer {
 footer span a {
     color: #000;
     text-decoration: none;
+}
+
+/* Media Query for Tablet-Desktop Viewport */
+@media screen and (min-width: 992px) {
+    
+    /* Nav area */
+    .googleSearch {
+        width: 40%;        
+    }
+    
 }
 

@@ -4,9 +4,3 @@
     File Name: script.js
 */
 
-document.getElementById("searchInput").addEventListener("search", myFunction);
-
-function myFunction() {
-    var x = document.getElementById("searchInput");
-    x.search("");   
-}
