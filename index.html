@@ -198,7 +198,7 @@
                                                     <h1 class="fw-light">Personal Website</h1>
                                                     <p class="lead text-muted">My first personal website<br>created using <b>Bootstrap</b>.</p>
                                                     <p>
-                                                        <a href="#" class="btn btn-secondary my-2">View</a>
+                                                        <a href="https://github.com/amy1ee/amy1ee.github.io" class="btn btn-secondary my-2" target="_blank">View Code</a>
                                                     </p>
                                                 </div>
                                             </div>
@@ -292,20 +292,25 @@
                         </div>
                     </div>
                     <div class="col-lg-8">
-                        <form method="post">
+                        <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycby6De2F0wSAYKVzg0oeUViTp-IBPwojmdpZxIe8lTh5GRnB_i7wujvbrxp2phEw1Tah/exec">
                             <div class="mb-3">
                                 <label for="subject" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="subject" placeholder="Please enter the subject" required>
+                                <input type="text" class="form-control" id="subject" placeholder="Please enter the subject" name="name" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">Your email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                                <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Please write your message here" required></textarea>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Please write your message here" name="message" required></textarea>
                             </div>
-                            <button type="submit" class="btn btn-primary">Send</button>
+                            <button class="btn btn-primary">Send</button>
+                            
+                            <!-- You can customize the thankyou message by editing the code below -->
+                            <div style="display:none" class="thankyou_message">
+                                <h5>Thanks for contacting me, I will get back to you soon!</h5>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -327,5 +332,6 @@
         
         <script src="scripts/script.js"></script>
         <script src="scripts/jquery-3.6.0.js"></script>
+        <script data-cfasync="false" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
     </body>
 </html>
