@@ -16,7 +16,7 @@
         <!-- Font -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&family=Merriweather:ital@1&display=swap" rel="stylesheet">
         
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -59,18 +59,19 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact</a>
                             </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdown07" data-bs-toggle="dropdown" aria-expanded="false">Language</a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdown07">
+                                    <li><a class="dropdown-item" href="index.html">English</a></li>
+                                    <li><a class="dropdown-item" href="kokr.html">한국어</a></li>                                    
+                                </ul>
+                            </li>
                         </ul>
                         
                         <div class="googleSearch">
                             <script async src="https://cse.google.com/cse.js?cx=fa399c0dc8e664918"></script>
                             <div class="gcse-search"></div>
                         </div>
-<!--
-                        <form class="d-flex nav-form" method="get" action="http://www.google.co.kr/search" target="_blank">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit" >Search</button>
-                        </form>
--->
                     </div>
                 </div>
             </nav>
@@ -80,42 +81,47 @@
         <main>
             
             <!-- Biography section -->
-            <div class="container">
+            <div class="container-fluid">
                 
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div id="profile">
-                            <img src="images/profile_pic.jpg" alt="amy lee profile picture" class="pro-pic">
-                            <p>Amy Lee</p>
-                            <ul class="social-icon">
-                                <li><a href="mailto:amy.lee2514@gmail.com"><img src="images/envelope-check-fill.svg" alt="mail icon"></a></li>
-                                <li><a href="https://www.linkedin.com/in/eunsuh-lee-17575a181/" target="_blank"><img src="images/linkedin.svg" alt="linkedin icon"></a></li>
-                                <li><a href="https://github.com/amy1ee" target="_blank"><img src="images/github.svg" alt="github icon"></a></li>
-                                <li><a href="https://www.instagram.com/abouteslee/" target="_blank"><img src="images/instagram.svg" alt="instagram icon"></a></li>
-                            </ul>
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div id="profile">
+                                <img src="images/profile_pic.jpg" alt="amy lee profile picture" class="pro-pic">
+                                <p>Amy Lee</p>
+                                <ul class="social-icon">
+                                    <li><a href="mailto:amy.lee2514@gmail.com"><img src="images/envelope-check-fill.svg" alt="mail icon"></a></li>
+                                    <li><a href="https://www.linkedin.com/in/eunsuh-lee-17575a181/" target="_blank"><img src="images/linkedin.svg" alt="linkedin icon"></a></li>
+                                    <li><a href="https://github.com/amy1ee" target="_blank"><img src="images/github.svg" alt="github icon"></a></li>
+                                    <li><a href="https://www.instagram.com/abouteslee/" target="_blank"><img src="images/instagram.svg" alt="instagram icon"></a></li>
+                                </ul>
+                            </div>
                         </div>
+
+                        <div class="col-lg-8">
+                            <div>
+                                <h2>Biography</h2>
+                                <p>Hi there, I&rsquo;m Amy. I immigrated from South Korea to Portland in 2020, I am a Tech Linguistic Tester with Welocalize. I have developed my localization skills, UI design review skills, and client relation skills, by testing many games, web and applications.</p> 
+                                <p>Currently studying Computer Information Systems, Web Development and Design at Portland Community College.</p>
+                                <p>I enjoy solving problems, aiming to become a game developer and a web developer.</p>
+                                <p><b>Talking about Personal Stuff:</b></p>
+                                <ul class="extra-info">
+                                    <li>I&rsquo;m currently working as an LQA at Welocalize</li>
+                                    <li class="last-list">Beside&rsquo;s programming, I enjoy playing games, traveling and going for walks with dogs &#128062;</li>
+                                </ul>
+                                <p><b>I&rsquo;m currently learning &lpar;can do&rpar;:</b></p>
+                                <ul class="program-icon">
+                                    <li><img src="images/filetype-html.svg" alt="html5 icon"></li>
+                                    <li><img src="images/filetype-css.svg" alt="css icon"></li>
+                                    <li><img src="images/filetype-js.svg" alt="javascript icon"></li>                                 
+                                    <li><img src="images/filetype-py.svg" alt="python icon"></li>
+                                    <li><img src="images/bootstrap.svg" alt="bootstrap icon"></li>
+                                </ul>
+                            </div>
+                        </div>                    
                     </div>
-                    
-                    <div class="col-lg-8">
-                        <div>
-                            <h2>Biography</h2>
-                            <p>Hi there, I&rsquo;m Amy. I immigrated from South Korea to Portland in 2020, I am a Tech Linguistic Tester with Welocalize. I have developed my localization skills, UI design review skills, and client relation skills, by testing many games, web and applications. Currently studying Computer Information Systems, Web Development and Design at Portland Community College.</p>
-                            <p>I enjoy solving problems, aiming to become a game developer and a web developer.</p>
-                            <p><b>Talking about Personal Stuff:</b></p>
-                            <ul class="extra-info">
-                                <li>I&rsquo;m currently working as an LQA at Welocalize</li>
-                                <li class="last-list">Beside&rsquo;s programming, I enjoy playing games, traveling and going for walks with dogs &#128062;</li>
-                            </ul>
-                            <p><b>I&rsquo;m currently learning &lpar;can do&rpar;:</b></p>
-                            <ul class="program-icon">
-                                <li><img src="images/filetype-html.svg" alt="html5 icon"></li>
-                                <li><img src="images/filetype-css.svg" alt="css icon"></li>
-                                <li><img src="images/filetype-js.svg" alt="javascript icon"></li>                                 
-                                <li><img src="images/filetype-py.svg" alt="python icon"></li>
-                                <li><img src="images/bootstrap.svg" alt="bootstrap icon"></li>
-                            </ul>
-                        </div>
-                    </div>                    
+
                 </div>
                 
             </div>
@@ -145,7 +151,7 @@
                                 </div>
 
                                 <div class="card card-cover h-100 overflow-hidden text-black rounded-5 shadow experience-section">
-                                    <h4>Intake Coordinator <span><a href="https://www.mowp.org/" class="btn btn-outline-secondary" target="_blank">Meals On Wheels People</a></span></h4>
+                                    <h4>Intake Coordinator <span class="tablet-view"><a href="https://www.mowp.org/" class="btn btn-outline-secondary" target="_blank">Meals On Wheels People</a></span><span class="mobile-view"><a href="https://www.mowp.org/" class="btn btn-outline-secondary" target="_blank">MOWP</a></span></h4>
                                     <p>July 2020 – July 2021 <span><b>Portland, Oregon</b></span></p>
                                     <ul>
                                         <li>Communicate with case managers, clients and staff regarding status of applications</li>
@@ -174,74 +180,79 @@
             </div>
             
             <!-- Project section -->
-            <div id="projects" class="container">
+            <div id="projects"  class="container-fluid">
                 
-                <div class="row">
-                        <div class="col-lg-4">
-                            <div>
-                                <h2>Project</h2>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-8">
-                            <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                
-                                <div class="carousel-indicators">
-                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                                </div>
+                <div class="container">
 
-                                <div class="carousel-inner"> 
-                                    <div class="carousel-item active" data-bs-interval="10000">
-                                        <div class="text-center">
-                                            <div class="row py-lg-5">
-                                                <div class="col-md-8 mx-auto">
-                                                    <h1 class="fw-light">Personal Website</h1>
-                                                    <p class="lead text-muted">My first personal website<br>created using <b>Bootstrap</b>.</p>
-                                                    <p>
-                                                        <a href="https://github.com/amy1ee/amy1ee.github.io" class="btn btn-secondary my-2" target="_blank">View Code</a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>                            
+                    <div class="row">
+                            <div class="col-lg-4">
+                                <div>
+                                    <h2>Project</h2>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-8">
+                                <div id="myCarousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                                     </div>
 
-<!--
-                        <div class="carousel-item" data-bs-interval="2000">
-                            <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center project-card">
-                                <div class="p-lg-5 mx-auto my-5">
-                                    <h1 class="display-4 fw-normal">Blog</h1>
-                                    <p class="lead fw-normal">Posts</p>
-                                    <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+                                    <div class="carousel-inner"> 
+                                        <div class="carousel-item active" data-bs-interval="10000">
+                                            <div class="text-center">
+                                                <div class="row py-lg-5">
+                                                    <div class="col-md-8 mx-auto">
+                                                        <h1 class="fw-light">Personal Website</h1>
+                                                        <p class="lead text-muted">My first personal website<br>created using <b>Bootstrap</b>.</p>
+                                                        <p>
+                                                            <a href="https://github.com/amy1ee/amy1ee.github.io" class="btn btn-secondary my-2" target="_blank">View Code</a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>                            
+                                        </div>
+
+    <!--
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center project-card">
+                                    <div class="p-lg-5 mx-auto my-5">
+                                        <h1 class="display-4 fw-normal">Blog</h1>
+                                        <p class="lead fw-normal">Posts</p>
+                                        <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+                                    </div>
+                                    <div class="product-device shadow-sm d-none d-md-block"></div>
+                                    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
                                 </div>
-                                <div class="product-device shadow-sm d-none d-md-block"></div>
-                                <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                    <p>Some representative placeholder content for the second slide.</p>
+                                </div>
                             </div>
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
+    -->
+
                         </div>
--->
-                        
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
                     </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                    
+                </div>
+                    </div>
                 </div>
                 
             </div>
-                </div>
-            </div>
-
+            
+            <!-- Blog section -->
             <div id="blog" class="container-fluid even-background">
                 
                 <div class="container">
@@ -268,40 +279,45 @@
                 </div>
             
             </div>
-            
-            <div id="contact" class="container">
+                            
+            <!-- Contact section -->
+            <div id="contact" class="container-fluid">
+                
+                <div class="container">
 
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div>
-                            <h2>Contact</h2>
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div>
+                                <h2>Contact</h2>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycby6De2F0wSAYKVzg0oeUViTp-IBPwojmdpZxIe8lTh5GRnB_i7wujvbrxp2phEw1Tah/exec">
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <input type="text" class="form-control" id="subject" placeholder="Please enter the subject" name="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Your email address</label>
+                                    <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" placeholder="Please write your message here" name="message" required></textarea>
+                                </div>
+                                <button class="btn btn-primary">Send</button>
+
+                                <!-- You can customize the thankyou message by editing the code below -->
+                                <div style="display:none" class="thankyou_message">
+                                    <h5>Thanks for contacting me, I will get back to you soon!</h5>
+                                </div>
+                            </form>
                         </div>
                     </div>
-                    <div class="col-lg-8">
-                        <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycby6De2F0wSAYKVzg0oeUViTp-IBPwojmdpZxIe8lTh5GRnB_i7wujvbrxp2phEw1Tah/exec">
-                            <div class="mb-3">
-                                <label for="subject" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="subject" placeholder="Please enter the subject" name="name" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="email" class="form-label">Your email address</label>
-                                <input type="email" class="form-control" id="email" placeholder="name@example.com" name="email" required>
-                            </div>
-                            <div class="mb-3">
-                                <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" rows="5" placeholder="Please write your message here" name="message" required></textarea>
-                            </div>
-                            <button class="btn btn-primary">Send</button>
-                            
-                            <!-- You can customize the thankyou message by editing the code below -->
-                            <div style="display:none" class="thankyou_message">
-                                <h5>Thanks for contacting me, I will get back to you soon!</h5>
-                            </div>
-                        </form>
-                    </div>
+
                 </div>
                 
-            </div>     
+            </div>
             
         </main>
             

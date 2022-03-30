@@ -4,24 +4,29 @@
     File Name: style.css
 */
 
+/* Body area */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* Nav area */
 nav {
-    background-color: #B2D2E4;
-    
+    background-color: #B2D2E4;    
 }
 
 /* Main contents area */
 main {
-    padding-top: 100px;
+    padding-top: 100px;    
 }
 
 main .container {
-    padding: 3% 2%;
+    padding: 4% 2% 4em;    
 }
 
 main h2 {
-    margin-bottom: 3%;
+    margin-bottom: 1.5em;
     font-family: 'Merriweather', serif;
+    font-weight: bold;    
 }
 
 .even-background {
@@ -78,6 +83,10 @@ main h2 {
     padding: 2% 0;
 }
 
+.mobile-view {
+    display: none;
+}
+
 /* Project section */
 .carousel-inner .col-md-8 {
     padding-top: 5%;
@@ -109,6 +118,25 @@ footer {
 footer span a {
     color: #000;
     text-decoration: none;
+}
+
+/* Media Query for mobile Viewport */
+@media screen and (max-width: 991px) {
+    
+    /* Main area */
+    main h2 {
+        margin-top: 1em;
+    }
+    
+    /* Experience area */
+    .tablet-view {
+        display: none;
+    }
+    
+    .mobile-view {
+        display: block;
+    }
+    
 }
 
 /* Media Query for Tablet-Desktop Viewport */
