@@ -1,11 +1,11 @@
 # My personal website 
 
-[Amy Lee](https://amy1ee.github.io/)
-
+## Link: [Amy Lee](https://amy1ee.github.io/)
+       
 ```sh
 First website (project) created with HTML, CSS, JavaScript and Bootstrap.
 ```
-
+      
 
 ![EN](https://user-images.githubusercontent.com/96388177/160965340-6646737d-b030-4c18-8855-5810fc746859.JPG)
 
