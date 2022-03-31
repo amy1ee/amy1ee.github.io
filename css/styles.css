@@ -9,6 +9,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.koKR {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.koKR h2 {
+    font-family: 'Do Hyeon', sans-serif;
+}
+
 /* Nav area */
 nav {
     background-color: #B2D2E4;    
@@ -135,6 +143,11 @@ footer span a {
     
     .mobile-view {
         display: block;
+    }
+    
+    /* Project area */
+    .carousel-control-prev, .carousel-control-next {
+        opacity: 0;
     }
     
 }
